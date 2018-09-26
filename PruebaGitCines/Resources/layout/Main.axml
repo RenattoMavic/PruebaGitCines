@@ -34,16 +34,36 @@
             android:id="@+id/gridLayout2">
             <ImageButton
                 android:src="@drawable/Ovalo"
-                android:id="@+id/imageButton2" />
+                android:id="@+id/imageButton2"
+                android:background="@android:color/transparent"
+                android:scaleX="0.5"
+                android:scaleY="0.5" />
             <ImageButton
                 android:src="@drawable/Ovalo"
-                android:id="@+id/imageButton3" />
+                android:id="@+id/imageButton3"
+                android:background="@android:color/transparent"
+                android:scaleX="0.5"
+                android:scaleY="0.5" />
             <ImageButton
                 android:src="@drawable/Ovalo"
-                android:id="@+id/imageButton4" />
+                android:id="@+id/imageButton4"
+                android:background="@android:color/transparent"
+                android:scaleX="0.5"
+                android:scaleY="0.5" />
             <ImageButton
                 android:src="@drawable/Ovalo"
-                android:id="@+id/imageButton5" />
+                android:id="@+id/imageButton5"
+                android:background="@android:color/transparent"
+                android:scaleX="0.5"
+                android:scaleY="0.5" />
         </GridLayout>
     </HorizontalScrollView>
+    <ListView
+        android:id="@+id/mainlistview"
+        android:layout_height="fill_parent"
+        android:layout_width="match_parent" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_height="fill_parent"
+        android:layout_width="match_parent" />
 </LinearLayout>

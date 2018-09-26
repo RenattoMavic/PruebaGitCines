@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayoutsmall">
+    <ImageView
+        android:src="@drawable/base"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:id="@+id/imageView1"
+        android:layout_centerInParent="true"
+        android:minWidth="700dp"
+        android:minHeight="400dp"
+        android:tint="#ffff3333" />
+    <ImageView
+        android:src="@drawable/base"
+        android:layout_width="wrap_content"
+        android:layout_height="400.0dp"
+        android:id="@+id/imagenPelicula"
+        android:layout_centerInParent="true"
+        android:minWidth="700dp"
+        android:minHeight="400dp"
+        android:tint="#ffd1d1d1"/>
+    <ImageView
+        android:layout_width="92.0dp"
+        android:layout_height="60.5dp"
+        android:id="@+id/Arrows"
+        android:tint="#ff000000"
+        android:src="@drawable/arrow2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tituloPelicula"
+        android:textColor="#ffffffff"
+        android:textSize="25dp"
+        android:layout_marginLeft="450dp"
+        android:layout_alignTop="@id/Arrows"
+        android:text="Oblivion: El despertar de soar" />  
+</RelativeLayout>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="250dp"
+    android:id="@+id/relativeLayoutsmall">
+    <ImageView
+        android:src="@drawable/base"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView1"
+        android:minWidth="700dp"
+        android:minHeight="400dp"
+        android:tint="#ffff3333"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:layout_width="66.0dp"
+        android:layout_height="19.5dp"
+        android:id="@+id/Horario"
+        android:text="Horario:"
+        android:layout_alignTop="@id/Arrows"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="140dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hora1"
+        android:text="13:00"
+        android:textColor="#bcffffff"
+        android:layout_alignTop="@id/Arrows"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="165dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hora2"
+        android:textColor="#ffffffff"
+        android:layout_alignBottom="@id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="15:00" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hora3"
+        android:textColor="#c9ffffff"
+        android:layout_centerHorizontal="false"
+        android:layout_alignTop="@id/Hora1"
+        android:layout_marginLeft="250dp"
+        android:text="18:00" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/layoutPelicula"
+        android:layout_alignBaseline="@id/relativeLayoutsmall"
+        android:layout_centerInParent="true">
+        <FrameLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="366.0dp"
+            android:layout_height="204.0dp"
+            android:id="@+id/frameLayout1"
+            android:layout_centerInParent="true"
+            android:requiresFadingEdge="vertical"
+            android:fadingEdge="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imagenPelicula"
+                android:layout_centerInParent="true"
+                android:minHeight="400dp"
+                android:minWidth="300dp"
+                android:src="@drawable/base"
+                android:tint="#ffaf2626" />
+            <ImageView
+                android:layout_width="200dp"
+                android:id="@+id/peliculaFondo"
+                android:layout_centerInParent="true"
+                android:maxHeight="180dp"
+                android:layout_height="200dp"/>
+        </FrameLayout>
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/peliculaPortada"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:layout_width="29.0dp"
+            android:layout_height="34.5dp"
+            android:id="@+id/Arrows"
+            android:tint="#ff000000"
+            android:src="@drawable/arrow2"
+            android:layout_marginLeft="50dp"
+            android:clickable="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="150dp"
+            android:baselineAlignBottom="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tituloPelicula"
+            android:textColor="#ffffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="450dp"
+            android:text="Oblivion: El despsertar de soarddf"
+            android:layout_marginRight="0.0dp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>  
+</RelativeLayout>
