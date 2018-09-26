@@ -3,5 +3,47 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout1">
+        <ImageButton
+            android:src="@drawable/BotonMenu"
+            android:id="@+id/imageButton1"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true" />
+        <SearchView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/searchView1" />
+    </GridLayout>
+    <HorizontalScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView1">
+        <GridLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/gridLayout2">
+            <ImageButton
+                android:src="@drawable/Ovalo"
+                android:id="@+id/imageButton2" />
+            <ImageButton
+                android:src="@drawable/Ovalo"
+                android:id="@+id/imageButton3" />
+            <ImageButton
+                android:src="@drawable/Ovalo"
+                android:id="@+id/imageButton4" />
+            <ImageButton
+                android:src="@drawable/Ovalo"
+                android:id="@+id/imageButton5" />
+        </GridLayout>
+    </HorizontalScrollView>
 </LinearLayout>
