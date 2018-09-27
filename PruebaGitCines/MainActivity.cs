@@ -29,7 +29,7 @@ namespace PruebaGitCines
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
             List<Tarjeta> lis = new List<Tarjeta>();
-            List<CineInfo> ls = cargaDeDatos.LoadCinepolis();
+            List<CineInfo> ls = cargaDeDatos.LoadCinemark();
             Tarjeta t = new Tarjeta("JArrol");
             Tarjeta t1 = new Tarjeta("Oblivion");
             Tarjeta t2 = new Tarjeta("Carlos");

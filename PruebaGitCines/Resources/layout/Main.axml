@@ -33,29 +33,21 @@
             android:layout_height="match_parent"
             android:id="@+id/gridLayout2">
             <ImageButton
-                android:src="@drawable/Ovalo"
+                android:src="@drawable/Lupa"
                 android:id="@+id/imageButton2"
-                android:background="@android:color/transparent"
-                android:scaleX="0.5"
-                android:scaleY="0.5" />
+                android:background="@android:color/transparent" />
             <ImageButton
-                android:src="@drawable/Ovalo"
+                android:src="@drawable/Lupa"
                 android:id="@+id/imageButton3"
-                android:background="@android:color/transparent"
-                android:scaleX="0.5"
-                android:scaleY="0.5" />
+                android:background="@android:color/transparent" />
             <ImageButton
-                android:src="@drawable/Ovalo"
+                android:src="@drawable/Lupa"
                 android:id="@+id/imageButton4"
-                android:background="@android:color/transparent"
-                android:scaleX="0.5"
-                android:scaleY="0.5" />
+                android:background="@android:color/transparent" />
             <ImageButton
-                android:src="@drawable/Ovalo"
+                android:src="@drawable/Lupa"
                 android:id="@+id/imageButton5"
-                android:background="@android:color/transparent"
-                android:scaleX="0.5"
-                android:scaleY="0.5" />
+                android:background="@android:color/transparent" />
         </GridLayout>
     </HorizontalScrollView>
     <ListView
